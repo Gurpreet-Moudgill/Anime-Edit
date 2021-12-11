@@ -523,3 +523,17 @@
   text-decoration: none;
   font-size: 2rem;
 }
+
+.f_links{
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.f_items{
+  display: flex;
+  flex-direction: column;
+}
+
+.foo
