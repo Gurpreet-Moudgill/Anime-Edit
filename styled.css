@@ -566,5 +566,19 @@
   #f_logo{
     margin-bottom: 2rem;
   }
+
+  .web_rights{
+    margin-bottom: 2rem;
+  }
+
+  .f_link{
+    flex-direction: column;
+  }
+
+  .social_wrap{
+    flex-direction: column;
+  }
 }
+
+
 
