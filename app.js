@@ -14,12 +14,17 @@ const highlightMenu = () => {
     const elem = document.querySelector('.highlight')
     const homeMenu = document.querySelector('#homepage')
     const aboutMenu = document.querySelector('#about-page')
-    const serviceMenu = document.querySelector('#service-page')
+    const servicesMenu = document.querySelector('#service-page')
     let scrollPos = window.scrollY
 
     if (window.innerWidth > 960 && scrollPos < 600) {
         homeMenu.classList.add('highlight')
         aboutMenu.classList.remove('highlight')
+        return
+    } else if (window.innerWidth > 960 && scrollPos < 1400) {
+        aboutMenu.classList.add('highlight')
+        homeMenu.classList.remove('highlight')
+        servicesMenu.classList.remove('highlight')
         return
     }
 
