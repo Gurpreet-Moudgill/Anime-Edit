@@ -421,6 +421,12 @@
     font-size: 1.5rem;
   }
 }
+@media screen and (max-width: 500px){
+  .abt_img_card{
+    height: 250px;
+    width: 250px;
+  }
+}
 
 /* Services Section */
 .services{
@@ -511,6 +517,13 @@
 @media screen and (max-width:760px) {
   .services_work{
     grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .services_card{
+    height: 350px;
+    width: 220px;
   }
 }
 
