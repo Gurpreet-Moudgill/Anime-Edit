@@ -525,6 +525,10 @@
     height: 350px;
     width: 220px;
   }
+  .services_card iframe{
+    height: 220px;
+    width: 220px;
+  }
 }
 
 /* Footer Section */
